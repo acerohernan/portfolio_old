@@ -27,7 +27,7 @@ export const Buttons = styled.div`
     width: 100%;
     display: inline-block;
     border: 3px solid black;
-    padding: 10px 0;
+    padding: 5px 0;
     outline: none;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;

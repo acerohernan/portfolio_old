@@ -15,12 +15,12 @@ const Title = styled.h1`
 
 const AboutButton = styled.button`
   border: 3px solid black;
-  padding: 10px 30px;
+  padding: 5px 30px;
   background-color: transparent;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  margin: 20px 0 40px;
+  margin: 20px 0;
 `;
 
 function Header() {
