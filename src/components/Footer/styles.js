@@ -13,7 +13,7 @@ export const FooterNav = styled.nav`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-
+  z-index: 1;
   a:nth-child(2) {
     border: none;
   }

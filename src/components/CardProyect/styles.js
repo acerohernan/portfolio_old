@@ -17,6 +17,7 @@ export const Image = styled.img`
   border: 3px solid black;
   border-bottom: none;
   box-sizing: border-box;
+  object-fit: cover;
 `;
 
 export const Buttons = styled.div`
@@ -87,4 +88,34 @@ export const Icons = styled.div`
       margin: 0 40px;
     }
   }
+`;
+
+export const ImgContainer = styled.div`
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  :hover {
+    img {
+      top: 0;
+      opacity: 1;
+    }
+  }
+`;
+
+export const SecondImg = styled.img`
+  position: absolute;
+  object-fit: cover;
+  opacity: 0;
+  transition: 0.4s all ease-in-out;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  border-bottom: none;
+  box-sizing: border-box;
+  bottom: 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
 `;

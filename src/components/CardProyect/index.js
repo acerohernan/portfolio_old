@@ -10,15 +10,21 @@ import {
   Title,
   Text,
   Icons,
+  ImgContainer,
+  SecondImg,
 } from "./styles.js";
 
 import proyectImg from "../../assets/proyect1.png";
+import proyectImg2 from "../../assets/proyect1.jpg";
 
 function CardProyect() {
   return (
     <Container>
       <Main>
-        <Image src={proyectImg} />
+        <ImgContainer>
+          <Image src={proyectImg} />
+          <SecondImg src={proyectImg2} />
+        </ImgContainer>
         <Buttons>
           <button>See live</button>
           <button>View Code</button>

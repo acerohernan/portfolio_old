@@ -41,7 +41,7 @@ function About() {
           <span>React</span>
           <span>Redux</span>
           <span>GIT</span>
-          <span>GITHUB</span>
+          <span>Github</span>
           <span>Responsive Design</span>
           <span>SEO</span>
           <span>Terminal</span>

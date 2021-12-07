@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   left: 0;
   height: 60px;
   background-color: #f6f7f9;
-  z-index: 1;
+  z-index: 2;
 
   a:nth-child(1) {
     ::after {
