@@ -7,12 +7,9 @@ import Layout from "./components/Layout";
 import Header from "./components/Header";
 import Proyects from "./components/Proyects";
 
-import useLocoScroll from "./hooks/useLocoScroll";
-
 const Container = styled.div``;
 
 function App() {
-  useLocoScroll(true);
   return (
     <>
       <GlobalStyle />

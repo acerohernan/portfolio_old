@@ -12,6 +12,13 @@ export const Nav = styled.nav`
   height: 60px;
   background-color: #f6f7f9;
   z-index: 1;
+
+  a:nth-child(1) {
+    ::after {
+      display: none;
+    }
+  }
+
   @media (max-width: 800px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,9 +37,33 @@ export const Link = styled.a`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
 
   span {
     font-size: 1.1rem;
+  }
+
+  ::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  :hover {
+    ::after {
+      transform: scaleY(1);
+      background-color: black;
+      opacity: 1;
+    }
   }
 
   @media (max-width: 800px) {

@@ -31,6 +31,13 @@ export const Buttons = styled.div`
     outline: none;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    transition: 0.5s all;
+    background-color: #f6f7f9;
+
+    :hover {
+      background-color: black;
+      color: #f6f7f9;
+    }
   }
 
   button:nth-of-type(1) {
