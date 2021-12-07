@@ -20,7 +20,7 @@ export const FooterNav = styled.nav`
 
   @media (min-width: 800px) {
     height: 100vh;
-    width: 11vw;
+    width: 78.9px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
