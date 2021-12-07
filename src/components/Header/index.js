@@ -31,6 +31,9 @@ function Header() {
         FRONTEND DEVELOPER
       </Title>
       <AboutButton>About Me</AboutButton>
+      <deatils>
+        <h4></h4>
+      </deatils>
     </Container>
   );
 }

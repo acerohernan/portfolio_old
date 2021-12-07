@@ -58,10 +58,10 @@ const Link = styled.a`
 function Footer() {
   return (
     <FooterNav>
-      <Link>
+      <Link href="https://www.linkedin.com/in/hernan-acero-46a671212/">
         <Linkedin />
       </Link>
-      <Link>
+      <Link href="https://github.com/acerohernan">
         <Github />
       </Link>
     </FooterNav>

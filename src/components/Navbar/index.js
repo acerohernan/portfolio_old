@@ -5,14 +5,17 @@ import { Nav, Link, Logo, Icon, IconMail } from "./styles";
 function Navbar() {
   return (
     <Nav>
-      <Link>
+      <Link href="/">
         <Logo>HA</Logo>
       </Link>
-      <Link>
+      <Link
+        href="https://drive.google.com/file/d/15fjPWucPXV-s9JIavo3mSGivs_RfNIMD/view?usp=sharing"
+        target="_blank"
+      >
         <Icon />
         <span>CV</span>
       </Link>
-      <Link>
+      <Link href="mailto:contacto.acero.hernan@gmail.com" target="_blank">
         <IconMail />
         <span>CONTACT</span>
       </Link>
