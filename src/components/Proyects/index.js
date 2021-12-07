@@ -15,8 +15,8 @@ const Container = styled.div`
 
 function Proyects() {
   return (
-    <Container>
-      {[1, 2, 3, 4].map((el) => (
+    <Container data-scroll-section>
+      {[1, 2, 3].map((el) => (
         <CardProyect key={el} />
       ))}
     </Container>

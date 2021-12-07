@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.1;
   padding: 10px 0;
   border-bottom: 4px solid black;
@@ -25,7 +25,7 @@ const AboutButton = styled.button`
 
 function Header() {
   return (
-    <Container>
+    <Container data-scroll-section>
       <Title>
         HERNAN ACERO, <br />
         FRONTEND DEVELOPER
