@@ -24,16 +24,19 @@ export const Buttons = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  button {
+
+  a {
     width: 100%;
     display: inline-block;
     border: 3px solid black;
-    padding: 5px 0;
+    padding: 10px 0;
     outline: none;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     transition: 0.5s all;
     background-color: #f6f7f9;
+    text-align: center;
+    box-sizing: border-box;
 
     :hover {
       background-color: black;
@@ -41,7 +44,7 @@ export const Buttons = styled.div`
     }
   }
 
-  button:nth-of-type(1) {
+  a:nth-of-type(1) {
     border-right: none;
   }
 `;

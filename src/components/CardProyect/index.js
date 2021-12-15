@@ -14,25 +14,37 @@ import {
   SecondImg,
 } from "./styles.js";
 
-import proyectImg from "../../assets/proyect1.png";
 import proyectImg2 from "../../assets/proyect1.jpg";
 
-function CardProyect() {
+function CardProyect({
+  title,
+  icons,
+  description1,
+  description2,
+  description3,
+  image,
+  codeLink,
+  pageLink,
+}) {
   return (
     <Container>
       <Main>
         <ImgContainer>
-          <Image src={proyectImg} />
+          <Image src={image} />
           <SecondImg src={proyectImg2} />
         </ImgContainer>
         <Buttons>
-          <button>See live</button>
-          <button>View Code</button>
+          <a href={pageLink} target="_blank" rel="noreferrer">
+            See live
+          </a>
+          <a href={codeLink} target="_blank" rel="noreferrer">
+            View Code
+          </a>
         </Buttons>
       </Main>
       <Details>
         <div>
-          <Title>REACT GUARDIAN APP</Title>
+          <Title>{title.toUpperCase()}</Title>
           <Text>
             A fully responsive react CRUD application using The Guardian News &
             Open Weather Map API with Firebase for Database, Auth and Hosting.
@@ -52,9 +64,9 @@ function CardProyect() {
           </Text>
         </div>
         <Icons>
-          {[1, 2, 3, 4].map((el) => (
-            <ReactIcon key={el} />
-          ))}
+          {icons.map((Icon) => {
+            return <Icon />;
+          })}
         </Icons>
       </Details>
     </Container>
