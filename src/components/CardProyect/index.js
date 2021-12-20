@@ -1,5 +1,4 @@
 import React from "react";
-import { FaReact as ReactIcon } from "react-icons/fa";
 
 import {
   Container,
@@ -14,8 +13,6 @@ import {
   SecondImg,
 } from "./styles.js";
 
-import proyectImg2 from "../../assets/proyect1.jpg";
-
 function CardProyect({
   title,
   icons,
@@ -25,13 +22,14 @@ function CardProyect({
   image,
   codeLink,
   pageLink,
+  secondImg,
 }) {
   return (
     <Container>
       <Main>
         <ImgContainer>
           <Image src={image} />
-          <SecondImg src={proyectImg2} />
+          <SecondImg src={secondImg} />
         </ImgContainer>
         <Buttons>
           <a href={pageLink} target="_blank" rel="noreferrer">

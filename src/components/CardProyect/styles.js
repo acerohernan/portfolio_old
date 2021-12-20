@@ -108,7 +108,6 @@ export const ImgContainer = styled.div`
 
 export const SecondImg = styled.img`
   position: absolute;
-  object-fit: cover;
   opacity: 0;
   transition: 0.4s all ease-in-out;
   width: 100%;

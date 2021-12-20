@@ -5,6 +5,9 @@ import CardProyect from "../CardProyect";
 import icons from "../../utils/icons";
 
 import codeStoreimage from "../../assets/codeStore.png";
+import hotDogsimage from "../../assets/hotDogs.png";
+import codeStoreSecondimage from "../../assets/proyect1.png";
+import hotDogsSecondimage from "../../assets/proyect2.png";
 
 const Container = styled.div`
   width: 100%;
@@ -17,9 +20,10 @@ const Container = styled.div`
 `;
 
 function Proyects() {
-  const [ReactIcon, Sass, Redux, Node, Styled, Firebase, CSS] = icons;
+  const [ReactIcon, Redux, Styled, Firebase, CSS] = icons;
 
   const CodeStoreIcons = [ReactIcon, CSS, Redux, Firebase];
+  const HotDogsIcons = [ReactIcon, Styled, Redux, Firebase];
 
   return (
     <Container data-scroll-section>
@@ -33,6 +37,19 @@ function Proyects() {
         pageLink="https://acerohernan.github.io/code-store/"
         codeLink="https://github.com/acerohernan/code-store"
         image={codeStoreimage}
+        secondImg={codeStoreSecondimage}
+      />
+      <CardProyect
+        title="Hot Dogs"
+        icons={HotDogsIcons}
+        description1="A fully responsive react CRUD application using The Guardian News & Open Weather Map API with Firebase for Database, Auth and Hosting. This app pulls headlines from all the main sections of The Guardian. Users are able to login and leave comments on all articles."
+        description2="
+        This app features: - Various React hooks such as useEffect, useHistory and useLocation to make API calls and define routes. - Multiple API calls to fetch News and Weather data. - State stored and persisted using Redux and local storage. - User authentication to allow for article comment creation, deletion and editing."
+        description3="I worked with The Guardian's style guide to retain brand consitency. MaterializeUI was used for the icons."
+        pageLink="https://acerohernan.github.io/hot-dogs/"
+        codeLink="https://github.com/acerohernan/hot-dogs"
+        image={hotDogsimage}
+        secondImg={hotDogsSecondimage}
       />
     </Container>
   );

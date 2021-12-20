@@ -1,9 +1,4 @@
-//REACT, SASS, REDUX, GITHUB, CSS, STYLED COMPONENTS, NODEJS, FIREWALL
-import {
-  FaReact as ReactIcon,
-  FaSass as Sass,
-  FaNodeJs as Node,
-} from "react-icons/fa";
+import { FaReact as ReactIcon } from "react-icons/fa";
 import {
   SiRedux as Redux,
   SiStyledcomponents as Styled,
@@ -11,6 +6,6 @@ import {
 } from "react-icons/si";
 import { IoLogoCss3 as CSS } from "react-icons/io";
 
-const icons = [ReactIcon, Sass, Redux, Node, Styled, Firebase, CSS];
+const icons = [ReactIcon, Redux, Styled, Firebase, CSS];
 
 export default icons;
