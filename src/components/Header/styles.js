@@ -10,24 +10,10 @@ export const Title = styled.h1`
   line-height: 1.1;
   padding: 10px 0;
   border-bottom: 4px solid black;
-`;
-
-/* export const AboutButton = styled.button`
-  border: 3px solid black;
-  padding: 5px 30px;
-  background-color: transparent;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  margin: 20px 0;
-  transition: 0.5s all;
-  background-color: #f6f7f9;
-
-  :hover {
-    background-color: black;
-    color: #f6f7f9;
+  @media (min-width: 800px) {
+    font-size: 5rem;
   }
-`; */
+`;
 
 export const AboutSection = styled.div`
   width: 100%;
