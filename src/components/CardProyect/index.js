@@ -9,6 +9,7 @@ import {
   Title,
   Text,
   Icons,
+  IconContainer,
   ImgContainer,
   SecondImg,
 } from "./styles.js";
@@ -62,9 +63,12 @@ function CardProyect({
           </Text>
         </div>
         <Icons>
-          {icons.map((Icon) => {
-            return <Icon />;
-          })}
+          {icons.map(({ name, icon }, index) => (
+            <IconContainer key={index}>
+              {icon()}
+              <span>{name}</span>
+            </IconContainer>
+          ))}
         </Icons>
       </Details>
     </Container>

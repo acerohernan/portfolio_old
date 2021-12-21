@@ -76,10 +76,13 @@ export const Icons = styled.div`
   justify-content: center;
   border-bottom: 1px solid gray;
   padding: 10px 0;
+  position: relative;
+
   svg {
     width: 40px;
     height: 40px;
     margin: 0 auto;
+    cursor: pointer;
   }
 
   @media (min-width: 800px) {
@@ -90,6 +93,32 @@ export const Icons = styled.div`
     svg {
       margin: 0 40px;
     }
+  }
+`;
+
+export const IconContainer = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  :hover {
+    span {
+      opacity: 1;
+    }
+  }
+
+  span {
+    display: inline-block;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+    width: 80%;
   }
 `;
 

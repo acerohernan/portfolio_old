@@ -6,6 +6,27 @@ import {
 } from "react-icons/si";
 import { IoLogoCss3 as CSS } from "react-icons/io";
 
-const icons = [ReactIcon, Redux, Styled, Firebase, CSS];
+const icons = [
+  {
+    name: "React",
+    icon: () => <ReactIcon />,
+  },
+  {
+    name: "Redux",
+    icon: () => <Redux />,
+  },
+  {
+    name: "Styled-components",
+    icon: () => <Styled />,
+  },
+  {
+    name: "Firebase",
+    icon: () => <Firebase />,
+  },
+  {
+    name: "CSS",
+    icon: () => <CSS />,
+  },
+];
 
 export default icons;
