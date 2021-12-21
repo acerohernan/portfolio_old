@@ -9,7 +9,7 @@ function Navbar() {
         <Logo>HA</Logo>
       </Link>
       <Link
-        href="https://drive.google.com/file/d/15fjPWucPXV-s9JIavo3mSGivs_RfNIMD/view?usp=sharing"
+        href="https://drive.google.com/file/d/1kOzEaYlwwsuhshCXQHf_Ju2t95IR8z2T/view?usp=sharing"
         target="_blank"
       >
         <Icon />

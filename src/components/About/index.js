@@ -23,11 +23,11 @@ function About() {
             <br />
             <br />
             También tengo dominio en tecnologías como
-            <b> Redux</b>, que permiten tener un estado de la aplicación
-            escalable, programas como <b>Figma </b>
-            que ayuda a prototipar correctamente la aplicación web y
-            preprocesadores como <b>SASS</b> que permiten tener más
-            funcionalidades a la hora de agregar estilos.
+            <b> Redux,</b> para manejar correctamente el estado de la aplicación
+            y hacerlo escalable, programas como <b>Figma, </b>
+            para prototipar correctamente la aplicación web y preprocesadores
+            como <b>SASS,</b> para obtener más funcionalidades a la hora de
+            agregar estilos.
             <br />
             <br />
             Estoy interesado en oportunidades labolares en donde pueda
