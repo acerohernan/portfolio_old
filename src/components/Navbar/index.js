@@ -17,7 +17,7 @@ function Navbar() {
       </Link>
       <Link href="mailto:contacto.acero.hernan@gmail.com" target="_blank">
         <IconMail />
-        <span>CONTACT</span>
+        <span>CONTACTO</span>
       </Link>
     </Nav>
   );

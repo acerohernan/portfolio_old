@@ -1,9 +1,5 @@
-import { FaReact as ReactIcon } from "react-icons/fa";
-import {
-  SiRedux as Redux,
-  SiStyledcomponents as Styled,
-  SiFirebase as Firebase,
-} from "react-icons/si";
+import { FaReact as ReactIcon, FaFigma as Figma } from "react-icons/fa";
+import { SiRedux as Redux, SiStyledcomponents as Styled } from "react-icons/si";
 import { IoLogoCss3 as CSS } from "react-icons/io";
 
 const icons = [
@@ -20,12 +16,12 @@ const icons = [
     icon: () => <Styled />,
   },
   {
-    name: "Firebase",
-    icon: () => <Firebase />,
-  },
-  {
     name: "CSS",
     icon: () => <CSS />,
+  },
+  {
+    name: "Figma",
+    icon: () => <Figma />,
   },
 ];
 

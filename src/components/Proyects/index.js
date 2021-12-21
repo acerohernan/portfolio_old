@@ -20,20 +20,23 @@ const Container = styled.div`
 `;
 
 function Proyects() {
-  const [ReactIcon, Redux, Styled, Firebase, CSS] = icons;
+  const [ReactIcon, Redux, Styled, CSS, Figma] = icons;
 
-  const CodeStoreIcons = [ReactIcon, CSS, Redux, Firebase];
-  const HotDogsIcons = [ReactIcon, Styled, Redux, Firebase];
+  const CodeStoreIcons = [Figma, ReactIcon, CSS, Redux];
+  const HotDogsIcons = [Figma, ReactIcon, Styled, Redux];
 
   return (
     <Container data-scroll-section>
       <CardProyect
         title="Code Store"
         icons={CodeStoreIcons}
-        description1="A fully responsive react CRUD application using The Guardian News & Open Weather Map API with Firebase for Database, Auth and Hosting. This app pulls headlines from all the main sections of The Guardian. Users are able to login and leave comments on all articles."
-        description2="
-        This app features: - Various React hooks such as useEffect, useHistory and useLocation to make API calls and define routes. - Multiple API calls to fetch News and Weather data. - State stored and persisted using Redux and local storage. - User authentication to allow for article comment creation, deletion and editing."
-        description3="I worked with The Guardian's style guide to retain brand consitency. MaterializeUI was used for the icons."
+        description1="Code Store es la parte frontend de un ecommerce, construido 
+        en React. 
+        Los estilos fueron añadidos con CSS utilizando la metodología 
+        de Módulos en CSS.
+        Y para manejar el estado de la aplicación se utilizo Redux."
+        description2="El usuario puede agregar y eliminar productos del carrito, así como también disfrutar del modo responsivo hecho a medida para cada uno de los dispositivos."
+        description3="El prototipo de la página se construyo en Figma y fue inspirada en diversas tiendas vistuales."
         pageLink="https://acerohernan.github.io/code-store/"
         codeLink="https://github.com/acerohernan/code-store"
         image={codeStoreimage}
@@ -42,10 +45,12 @@ function Proyects() {
       <CardProyect
         title="Hot Dogs"
         icons={HotDogsIcons}
-        description1="A fully responsive react CRUD application using The Guardian News & Open Weather Map API with Firebase for Database, Auth and Hosting. This app pulls headlines from all the main sections of The Guardian. Users are able to login and leave comments on all articles."
-        description2="
-        This app features: - Various React hooks such as useEffect, useHistory and useLocation to make API calls and define routes. - Multiple API calls to fetch News and Weather data. - State stored and persisted using Redux and local storage. - User authentication to allow for article comment creation, deletion and editing."
-        description3="I worked with The Guardian's style guide to retain brand consitency. MaterializeUI was used for the icons."
+        description1="Hot Dogs es un sitio de visualización de cachorros inspirado en Tinder, construido 
+        en React. 
+        Los estilos fueron añadidos con CSS en Javascript utilizando la librería de Styled Components.
+        Y para manejar el estado de la aplicación se utilizo Redux."
+        description2="El usuario puede agregar y eliminar cahorros favoritos, también puede acceder a la pestaña de cuenta después de haberse creado una cuenta y haber registrado a su mascota."
+        description3="El prototipo de la página se construyo en Figma y fue inspirada en Tinder."
         pageLink="https://acerohernan.github.io/hot-dogs/"
         codeLink="https://github.com/acerohernan/hot-dogs"
         image={hotDogsimage}

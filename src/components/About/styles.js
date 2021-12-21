@@ -10,22 +10,22 @@ export const Container = styled.section`
 
   @media (min-width: 800px) {
     .open {
-      height: 34rem;
+      height: 41rem;
     }
   }
   @media (min-width: 1000px) {
     .open {
-      height: 28rem;
+      height: 35rem;
     }
   }
   @media (min-width: 1200px) {
     .open {
-      height: 25rem;
+      height: 29rem;
     }
   }
   @media (min-width: 1600px) {
     .open {
-      height: 20rem;
+      height: 23rem;
     }
   }
 `;

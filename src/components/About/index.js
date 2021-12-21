@@ -13,27 +13,32 @@ function About() {
       <Button onClick={handleAppear}>About</Button>
       <Details className={appear ? "open" : ""}>
         <Info>
-          <h2>Get to know me!</h2>
+          <h2>Sobre mí</h2>
           <p>
-            I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Check out some of my work in the Projects section.
+            Soy un <b>Desarrollador Junior</b>, especializado en el
+            <b> Frontend</b>, apasionado por el lenguaje de
+            <b> Javascript</b> y las funcionalidades de
+            <b> React</b>. Puede observar algunos de mis trabajos en la parte
+            inferior.
             <br />
             <br />
-            I also like sharing content related to the stuff that I have learned
-            over the years in Web Development so it can help other people of the
-            Dev Community. Feel free to Connect or Follow me on my Linkedin
-            where I post useful content related to Web Development and
-            Programming.
+            También tengo dominio en tecnologías como
+            <b> Redux</b>, que permiten tener un estado de la aplicación
+            escalable, programas como <b>Figma </b>
+            que ayuda a prototipar correctamente la aplicación web y
+            preprocesadores como <b>SASS</b> que permiten tener más
+            funcionalidades a la hora de agregar estilos.
             <br />
             <br />
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            Estoy interesado en oportunidades labolares en donde pueda
+            contribuir, aprender y crecer al mismo tiempo. Con respecto a las
+            habilidades blandas, soy <b>comunicativo</b> y no tengo problemas
+            con el <b>trabajo en equipo</b>. Si tiene alguna oportunidad para mi
+            persona, no dude en contactarme.
           </p>
         </Info>
         <Skills>
-          <h2>Skills</h2>
+          <h2>Habilidades</h2>
           <span>HTML</span>
           <span>CSS</span>
           <span>SASS</span>
