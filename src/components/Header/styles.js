@@ -9,7 +9,7 @@ export const Title = styled.h1`
   font-size: 3rem;
   line-height: 1.1;
   padding: 10px 0;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid white;
   @media (min-width: 800px) {
     font-size: 5rem;
   }

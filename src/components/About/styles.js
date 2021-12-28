@@ -31,19 +31,20 @@ export const Container = styled.section`
 `;
 
 export const Button = styled.button`
-  border: 3px solid black;
-  padding: 5px 40px;
+  border: 2px solid white;
+  padding: 10px 60px;
   background-color: transparent;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 20px 0;
   transition: 0.5s all;
-  background-color: #f6f7f9;
+  background-color: #191919;
+  color: white;
 
   :hover {
-    background-color: black;
-    color: #f6f7f9;
+    background-color: white;
+    color: #191919;
   }
 `;
 

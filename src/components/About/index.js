@@ -10,7 +10,7 @@ function About() {
 
   return (
     <Container>
-      <Button onClick={handleAppear}>About</Button>
+      <Button onClick={handleAppear}>Sobre mí</Button>
       <Details className={appear ? "open" : ""}>
         <Info>
           <h2>Sobre mí</h2>
