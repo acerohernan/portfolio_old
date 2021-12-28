@@ -31,7 +31,7 @@ export const Container = styled.section`
 `;
 
 export const Button = styled.button`
-  border: 2px solid white;
+  border: 3px solid black;
   padding: 10px 60px;
   background-color: transparent;
   font-family: "Poppins", sans-serif;
@@ -39,12 +39,11 @@ export const Button = styled.button`
   font-size: 1.1rem;
   margin: 20px 0;
   transition: 0.5s all;
-  background-color: #191919;
-  color: white;
+  background-color: #f6f7f9;
 
   :hover {
-    background-color: white;
-    color: #191919;
+    background-color: black;
+    color: #f6f7f9;
   }
 `;
 

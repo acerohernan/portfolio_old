@@ -14,7 +14,7 @@ export const Main = styled.div`
 export const Image = styled.img`
   width: 100%;
   height: 100%;
-  border: 2px solid white;
+  border: 3px solid black;
   border-bottom: none;
   box-sizing: border-box;
   object-fit: cover;
@@ -28,21 +28,24 @@ export const Buttons = styled.div`
   a {
     width: 100%;
     display: inline-block;
-    border: 2px solid white;
+    border: 3px solid black;
     padding: 10px 0;
     outline: none;
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     transition: 0.5s all;
-    background-color: #191919;
-    color: white;
+    background-color: #f6f7f9;
     text-align: center;
     box-sizing: border-box;
 
     :hover {
-      background-color: white;
-      color: #191919;
+      background-color: black;
+      color: #f6f7f9;
     }
+  }
+
+  a:nth-of-type(1) {
+    border-right: none;
   }
 `;
 
@@ -64,7 +67,6 @@ export const Text = styled.p`
   width: 100%;
   margin-bottom: 15px;
   font-size: 1.1rem;
-  font-weight: 300;
 `;
 
 export const Icons = styled.div`

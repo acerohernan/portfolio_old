@@ -49,7 +49,7 @@ function Proyects() {
         en React. 
         Los estilos fueron añadidos con CSS en Javascript utilizando la librería de Styled Components.
         Y para manejar el estado de la aplicación se utilizo Redux."
-        description2="El usuario puede agregar y eliminar cahorros favoritos, también puede acceder a la pestaña de cuenta después de haberse creado una cuenta y haber registrado a su mascota."
+        description2="El usuario puede agregar y eliminar cahorros favoritos, acceder a un chat con cada cachorro y visualizar los detalles de cada uno. A la vez, se puede acceder a la página de cuenta y registrarse."
         description3="El prototipo de la página se construyo en Figma y fue inspirada en Tinder."
         pageLink="https://acerohernan.github.io/hot-dogs/"
         codeLink="https://github.com/acerohernan/hot-dogs"

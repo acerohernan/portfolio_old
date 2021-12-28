@@ -3,14 +3,14 @@ import { FiDownload, FiMail } from "react-icons/fi";
 
 export const Nav = styled.nav`
   width: 100%;
-  border-bottom: 1px solid #434343;
+  border-bottom: 1px solid black;
   display: flex;
   position: fixed;
   top: 0%;
   right: 0;
   left: 0;
   height: 60px;
-  background-color: #191919;
+  background-color: #f6f7f9;
   z-index: 2;
 
   a:nth-child(1) {
@@ -31,18 +31,16 @@ export const Nav = styled.nav`
 
 export const Link = styled.a`
   display: inline-block;
-  border-right: 1px solid #434343;
+  border-right: 1px solid black;
   padding: 5px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   position: relative;
-  color: white;
 
   span {
     font-size: 1.2rem;
-    font-weight: 300;
   }
 
   ::after {
@@ -63,7 +61,7 @@ export const Link = styled.a`
   :hover {
     ::after {
       transform: scaleY(1);
-      background-color: white;
+      background-color: black;
       opacity: 1;
     }
   }
