@@ -58,7 +58,7 @@ export const Details = styled.div`
 
 export const Title = styled.h2`
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 10px 0;
 `;
 
@@ -66,7 +66,7 @@ export const Text = styled.p`
   font-weight: 300;
   width: 100%;
   margin-bottom: 15px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 `;
 
 export const Icons = styled.div`
@@ -88,7 +88,7 @@ export const Icons = styled.div`
 
   @media (min-width: 800px) {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     border: none;
 
     svg {

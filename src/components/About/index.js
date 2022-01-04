@@ -22,9 +22,12 @@ function About() {
             inferior.
             <br />
             <br />
-            También tengo dominio en tecnologías como
-            <b> Redux,</b> para manejar correctamente el estado de la aplicación
-            y hacerlo escalable, programas como <b>Figma, </b>
+            Tengo dominio en tecnologías como <b>NodeJS, </b>
+            <b> Express </b> y <b> MongoDB </b>
+            para la creación de <b> API REST. </b>
+            <br />
+            Domino también<b> Redux, </b> para manejar correctamente el estado
+            de la aplicación y hacerlo escalable, programas como <b>Figma, </b>
             para prototipar correctamente la aplicación web y preprocesadores
             como <b>SASS,</b> para obtener más funcionalidades a la hora de
             agregar estilos.
@@ -38,7 +41,7 @@ function About() {
           </p>
         </Info>
         <Skills>
-          <h2>Habilidades</h2>
+          <h2>Tecnologías</h2>
           <span>HTML</span>
           <span>CSS</span>
           <span>SASS</span>
@@ -51,6 +54,10 @@ function About() {
           <span>SEO</span>
           <span>Terminal</span>
           <span>CSS in JS</span>
+          <span>NodeJS</span>
+          <span>ExpressJS</span>
+          <span>MongoDB</span>
+          <span>Postman</span>
         </Skills>
       </Details>
     </Container>

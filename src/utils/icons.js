@@ -1,6 +1,15 @@
-import { FaReact as ReactIcon, FaFigma as Figma } from "react-icons/fa";
-import { SiRedux as Redux, SiStyledcomponents as Styled } from "react-icons/si";
-import { IoLogoCss3 as CSS } from "react-icons/io";
+import {
+  FaReact as ReactIcon,
+  FaFigma as Figma,
+  FaSass as SASS,
+  FaNodeJs as NodeJS,
+} from "react-icons/fa";
+import {
+  SiRedux as Redux,
+  SiStyledcomponents as Styled,
+  SiExpress as Express,
+  SiMongodb as MongoDB,
+} from "react-icons/si";
 
 const icons = [
   {
@@ -16,12 +25,24 @@ const icons = [
     icon: () => <Styled />,
   },
   {
-    name: "CSS",
-    icon: () => <CSS />,
-  },
-  {
     name: "Figma",
     icon: () => <Figma />,
+  },
+  {
+    name: "SASS",
+    icon: () => <SASS />,
+  },
+  {
+    name: "NodeJS",
+    icon: () => <NodeJS />,
+  },
+  {
+    name: "Express",
+    icon: () => <Express />,
+  },
+  {
+    name: "MongoDB",
+    icon: () => <MongoDB />,
   },
 ];
 

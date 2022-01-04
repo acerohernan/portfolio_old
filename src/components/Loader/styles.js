@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: ${(props) => (props.loading ? "100%" : "0%")};
+  width: ${(props) => (props.$loading ? "100%" : "0%")};
   height: 100vh;
   background-color: white;
   position: fixed;
@@ -21,5 +21,5 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 2rem;
   color: black;
-  display: ${(props) => (props.loading ? "block" : "none")};
+  display: ${(props) => (props.$loading ? "block" : "none")};
 `;

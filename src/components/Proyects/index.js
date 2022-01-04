@@ -20,21 +20,38 @@ const Container = styled.div`
 `;
 
 function Proyects() {
-  const [ReactIcon, Redux, Styled, CSS, Figma] = icons;
+  const [ReactIcon, Redux, Styled, Figma, SASS, NodeJS, Express, MongoDB] =
+    icons;
 
-  const CodeStoreIcons = [Figma, ReactIcon, CSS, Redux];
-  const HotDogsIcons = [Figma, ReactIcon, Styled, Redux];
+  const CodeStoreIcons = [
+    Figma,
+    ReactIcon,
+    SASS,
+    Redux,
+    NodeJS,
+    Express,
+    MongoDB,
+  ];
+  const HotDogsIcons = [
+    Figma,
+    ReactIcon,
+    Styled,
+    Redux,
+    NodeJS,
+    Express,
+    MongoDB,
+  ];
 
   return (
     <Container data-scroll-section>
       <CardProyect
         title="Code Store"
         icons={CodeStoreIcons}
-        description1="Code Store es la parte frontend de un ecommerce, construido 
-        en React. 
-        Los estilos fueron añadidos con CSS utilizando la metodología 
-        de Módulos en CSS.
-        Y para manejar el estado de la aplicación se utilizo Redux."
+        description1="Code Store es un ecommerce construido 
+        en React. La parte del Backend fue construido con NodeJS, ExpressJS y se utilizó MongoDB para la base de datos.
+        Los estilos fueron añadidos con SASS utilizando la metodología 
+        de Módulos en SASS.
+        Y para manejar el estado de la aplicación, se utilizo Redux."
         description2="El usuario puede agregar y eliminar productos del carrito, así como también disfrutar del modo responsivo hecho a medida para cada uno de los dispositivos."
         description3="El prototipo de la página se construyo en Figma y fue inspirada en diversas tiendas vistuales."
         pageLink="https://acerohernan.github.io/code-store/"
@@ -47,6 +64,7 @@ function Proyects() {
         icons={HotDogsIcons}
         description1="Hot Dogs es un sitio de visualización de cachorros inspirado en Tinder, construido 
         en React. 
+        Se construyó una API REST de cahorros con NodeJS, Express y MongoDB que es consumida por la página. 
         Los estilos fueron añadidos con CSS en Javascript utilizando la librería de Styled Components.
         Y para manejar el estado de la aplicación se utilizo Redux."
         description2="El usuario puede agregar y eliminar cahorros favoritos, acceder a un chat con cada cachorro y visualizar los detalles de cada uno. A la vez, se puede acceder a la página de cuenta y registrarse."
